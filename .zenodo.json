@@ -1,0 +1,14 @@
+{
+  "title": "Code and derived data for: A connectome-calibrated test of a splice-isoform chemoaffinity code in mouse visual cortex",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "license": "MIT",
+  "creators": [{"name": "[AUTHOR 1 SURNAME], [GIVEN NAMES]", "affiliation": "[AFFILIATION]"}],
+  "description": "Pipeline (remote unindexed-BAM junction extraction, MICrONS geometric null model, isoform-gated adhesion compatibility, null-calibrated tests) and derived per-cell junction tables for 1,543 SMART-seq v4 and 1,800 Patch-seq neurons.",
+  "keywords": ["connectomics", "alternative splicing", "neurexin", "Patch-seq", "MICrONS", "synaptic specificity", "chemoaffinity"],
+  "related_identifiers": [
+    {"identifier": "10.1038/s41586-025-08790-w", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.1038/s41586-018-0654-5", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.1016/j.cell.2020.09.057", "relation": "references", "scheme": "doi"}
+  ]
+}

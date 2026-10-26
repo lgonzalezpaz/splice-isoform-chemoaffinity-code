@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article and this software archive."
+title: "Splice-isoform chemoaffinity code test: MICrONS connectome x SMART-seq/Patch-seq isoforms"
+version: 1.0.0
+date-released: 2026-10-22
+license: MIT
+repository-code: "[GITHUB URL]"
+doi: "[ZENODO DOI]"
+authors:
+  - family-names: "[AUTHOR 1 SURNAME]"
+    given-names: "[AUTHOR 1 GIVEN NAMES]"
+  - family-names: "[AUTHOR 2 SURNAME]"
+    given-names: "[AUTHOR 2 GIVEN NAMES]"
+keywords: [connectomics, alternative splicing, neurexin, Patch-seq, MICrONS, synaptic specificity]
+preferred-citation:
+  type: article
+  title: "A connectome-calibrated test of a splice-isoform chemoaffinity code in mouse visual cortex"
+  authors:
+    - family-names: "[AUTHOR 1 SURNAME]"
+      given-names: "[AUTHOR 1 GIVEN NAMES]"
+  journal: "[JOURNAL]"
+  year: 2026

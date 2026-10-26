@@ -1,0 +1,15 @@
+Test,Quantity,Main estimate,Null / P,Sensitivity range,Interpretation
+T1,Single interactions vs interaction term,"5/32 at q < 0.05 (gene-level); 4 negative (ρ −0.27 to −0.39), Nrxn–Clstn3 ρ = 0.26","Mantel-type label permutation, BH-FDR",—,Associations reflect class co-expression
+T1,Adhesion compatibility index (equal weights),ρ = -0.27,P = 0.027,-0.26 to -0.16,Opposite to predicted sign
+T2,"Bilinear model, gene-level (LOO ρ)",0.47,—,0.27 to 0.48,"Predictive, ≈60% of noise ceiling"
+T2,"Bilinear model, isoform-gated (LOO ρ)",0.39,label perm. P = 0.020; random genes P = 0.57,0.32 to 0.43,Not better than random genes
+T2,Leave-one-type-out ρ (gene / isoform),0.43 / 0.30,—,—,Generalises to unseen types
+T3,Isoform contribution Δρ,-0.08 (95% CI -0.20 to 0.05),Ψ-permutation P = 0.38,-0.10 to 0.06,No detectable isoform information
+T3b,Rule-level Δρ (SS4; Ten insert),-0.03; 0.23,P = 0.78; 0.14 (one-sided),—,No rule-specific gain
+T4,Clustered-Pcdh similarity,ρ = -0.28,P = 0.027,-0.30 to -0.27,"Negative as predicted, but see T6"
+T6,Pcdh partial | transcriptome,ρ = -0.06,P = 0.53,-0.08 to -0.02,Explained by transcriptomic dissimilarity
+T6,Class-block model (weighted R²),0.25,—,—,Heterophilic E/I structure
+T5,"Multisynaptic fraction, partial | interaction",ρ = 0.02,P = 0.79,—,Consolidation not predicted
+T5,"Mean cleft size, partial | interaction",ρ = -0.19,P = 0.034,—,"Weak, opposite sign"
+T7,Noise ceiling (Spearman–Brown),0.77,split-half ρ = 0.63,—,Upper bound on explainable signal
+T8,Power of T3 at ρ = 0.5 / 0.7 / 0.9,0.30 / 0.62 / 1.00,α = 0.05; 100 simulations,—,Only strong isoform codes excluded

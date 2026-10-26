@@ -1,0 +1,21 @@
+Item,Value,Source
+Connectome,"MICrONS minnie65, static materialization v1412",MICrONS Consortium 2025
+Cell types,aibs_metamodel_celltypes_v661; 11 neuronal types,Elabbady et al. 2025
+Presynaptic neurons,"1,934 with proofread axon, single nucleus",proofreading_status_and_strategy
+Postsynaptic neurons,"72,150 typed neurons",this study
+Connections / synapses,"780,552 / 1,162,438 (from proofread axons)",connections_with_nuclei v1412
+Geometric bins,"lateral distance 0,25,50,75,100,150,200,300,400,600,>600 µm × depth 25 µm",this study
+Pseudocount; weights,0.5 synapses; w = √E,equations 3–4
+Bootstrap / split-half,"1,000 resamples; 200 split-halves of presynaptic neurons",this study
+Type key (MICrONS ↔ subclass),23P↔L2/3 IT; 4P↔L4; 5P-IT↔L5 IT; 5P-ET↔L5 PT; 5P-NP↔NP; 6P-IT↔L6 IT; 6P-CT↔L6 CT; BC↔Pvalb; MC↔Sst; BPC↔Vip; NGC↔Lamp5,Gouwens 2020; Elabbady 2025; Gamlin 2025
+Alternative type keys,NGC↔Sncg; 6P-CT↔L6b,sensitivity
+SMART-seq v4 (VISp),"12,786 neurons (expression); 1,543 (junctions; ≤120 per subclass)",Tasic et al. 2018; GSE115746
+Patch-seq (VISp),"4,221 interneurons (expression); 1,697 assigned files, 1,605 used (junctions)",Gouwens et al. 2020; NeMO
+Alignment / annotation,"STAR 2.5.3a, GRCm38 (RefSeq accessions); GENCODE vM25",Allen Institute; Frankish 2019
+Read filter,MAPQ = 255 (unique); fragments deduplicated by read name,this study
+Event definition,junction support ≥3; cassette exon ≤500 nt; alternative site ≤60 nt,this study
+Event testing,"≥30 informative fragments; alternative if 0.05 < Ψ < 0.95 with ≥20 fragments; 2,000 label permutations; BH-FDR",equation 7
+Interactions,"32 curated (24 heterophilic, 12 splice-gated; 8 homophilic families)",Supplementary Table 1
+Bilinear model,"ridge, λ = 10; leave-one-pair-out (exact) and leave-one-type-out",equations 11–12
+Null models,"10,000 / 2,000 / 300 type-label permutations; 1,000 random gene-pair sets; 1,000 Ψ permutations",Table 3
+Power simulation,100 synthetic outcomes per effect size; 100 Ψ permutations,this study
